@@ -1,0 +1,89 @@
+<head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+    <!-- 
+    .header {
+        background-color:#26d0c9 ;
+        color:white;
+        padding:100px 300px;
+        font-family: serif    ;
+    }
+    form {
+        padding:100px;
+        font-size: large;
+        font-family: serif;
+    }
+    .footer{background-color: #2f5167;
+    color: #fff;
+    height: 200px;
+    padding: 40px;
+    margin-top:90px;}
+
+    textarea {
+  　height: 200px;
+  　width: 500px;}
+
+    .footer-logo {
+        float:left;
+        font-size:32px;
+        font-family: serif;
+    }
+
+    .footer-list {
+    float: right;
+    font-family: serif;
+  }
+  
+  .footer-list li {
+    padding-bottom: 10px;
+    list-style:none;
+  }
+        --></style>
+
+</head>
+
+<title>要約アプリ</title>
+<body>
+<div class="header">
+    <h1>Sentence Summary </h1>
+</div>
+
+<style>
+    #wrapper {
+        text-align: center;
+    }
+</style>
+
+
+<form method="post">
+<div id="wrapper">
+　{{form.Sentence.label}}
+</div>
+<div id="wrapper">
+  <textarea input type="text" name="Sentence"></textarea>
+</div>
+<div id="wrapper">
+  {{form.submit}}
+</div>
+</form>
+
+
+<div class="footer">
+    <div class="footer-logo">Team Member</div>
+    <div class="footer-list">
+        <ul>
+            <li>Terukazu Iwawaki</li>
+            <li>Ryuki Furukawa</li>
+            <li>Tomohiro Yamano</li>
+            <li>Kazuto Haruguchi</li>
+            <li>Shutaro Murata</li>
+            <li>Yota Iida</li>
+        </ul>
+    </div>
+
+</div>
+  
+</body>
+
+
+
